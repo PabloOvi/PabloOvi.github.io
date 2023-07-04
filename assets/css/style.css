@@ -13,7 +13,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/back.webp") top right no-repeat;
+  background: #040404 url("../img/back.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -411,7 +411,7 @@ section .container {
 }
 
 .about-me #img-about{
-  filter: grayscale(100%);
+  /*filter: grayscale(100%);*/
   padding-left: 55px;
   padding-top: 50px;
   
